@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: Playfair Display;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+:root {
+  --primary-color: rgb(0, 153, 180);
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+
+main, footer {
+  padding: 25px;
+}
+
+img {
+  width: 25px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
